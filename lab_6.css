@@ -1,0 +1,55 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    margin: 0px auto;
+}
+
+.button_containter{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2.5px solid black;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    flex-grow: 1;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.images_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.images_container .img{
+    display: flex;
+    width: 50%;
+    transition: 0.5s;
+}
+
+.images_container .dog{
+    float: right;
+    background-color: green;
+}
+
+main .images_container .cat{
+    float: left;
+    background-color: blue;
+}
+
+img {
+    margin: 20px;
+    height: 70%;
+    width: 70%;
+}
